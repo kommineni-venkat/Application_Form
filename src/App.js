@@ -35,7 +35,7 @@ function App() {
             url,
             about
         );
-        // Add your form submission logic here
+       
     };
 
     const handleSubjectChange = (sub) => {
@@ -45,7 +45,7 @@ function App() {
         }));
     };
     const handleReset = () => {
-        // Reset all state variables here
+       
         setFirstName("");
         setLastName("");
         setEmail("");
